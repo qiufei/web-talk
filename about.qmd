@@ -1,0 +1,28 @@
+---
+title: "简介"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:hfutqiufei@163.com
+    - icon: fab fa-weibo
+      text: 微博
+      href: https://weibo.com/u/1651226607
+    - icon: origin:知
+      text: 知乎
+      href: https://www.zhihu.com/people/cionysus
+    # - icon: fab fa-weixin
+    #   text: 微信
+    #   href: weixin:cionysus
+    - icon: github
+      text: Github
+      href: https://github.com/qiufei
+email-obfuscation: javascript
+
+---
+
+我是邱飞，这是我的个人网站，
+
+用于分享一些数据分析文章，还有个人的记录和资料。

@@ -1,0 +1,49 @@
+/* 调整标题位置 */
+.reveal .title {
+  margin-top: 200px !important; /* 负值使标题上移 */
+}
+
+/* 使所有图片居中显示并自动缩放 */
+.reveal .slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 70vh; /* 限制图片高度，确保在幻灯片中完整显示 */
+  height: auto;
+  object-fit: contain; /* 保持纵横比例缩放 */
+}
+
+/* 确保图片容器也居中 */
+.reveal .slide p > img {
+  margin: 0 auto;
+}
+
+/* 针对特定容器中的图片居中 */
+.reveal figure {
+  text-align: center;
+}
+
+/* 确保所有幻灯片中的图片适应容器 */
+.reveal .slides section img {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+/* 针对多列布局中的图片进行特殊处理 */
+.reveal .columns .column img {
+  max-height: 42vh; /* 为多列中的图片设置更小的高度限制 */
+  width: auto;      /* 保持宽高比 */
+  object-fit: contain;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* 确保列布局中的图片容器不溢出 */
+.reveal .columns .column {
+  overflow: hidden;
+}
+
+
+
