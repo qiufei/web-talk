@@ -228,14 +228,21 @@
     "href": "talk/AI/ai.html#ai使用的两种模式",
     "title": "AI应用场景与日常实际操作",
     "section": "AI使用的两种模式",
-    "text": "AI使用的两种模式\n\n以大模型本身为主\n\ndeepseek网页版 + cherry studio\n\n大模型嵌入工具链 ：\n\ndeepseek api接口 + vscode + cline"
+    "text": "AI使用的两种模式\n\n🧠以大模型本身为主\n\ndeepseek网页版 + cherry studio + webdav\n\n🛠️大模型嵌入工具链\n\ndeepseek api接口 + vscode + cline"
+  },
+  {
+    "objectID": "talk/AI/ai.html#hands-on-三个案例",
+    "href": "talk/AI/ai.html#hands-on-三个案例",
+    "title": "AI应用场景与日常实际操作",
+    "section": "Hands-On 三个案例",
+    "text": "Hands-On 三个案例\n\n✍️文档写作：以大模型本身为主\n\n文本的世界\n\n🎨绘图实例：大模型嵌入工具链\n\n大模型与现有工具的结合\n\n📊数据分析：大模型嵌入工具链\n\n让AI帮你用AI"
   },
   {
     "objectID": "talk/AI/ai.html#文档写作",
     "href": "talk/AI/ai.html#文档写作",
     "title": "AI应用场景与日常实际操作",
-    "section": "文档写作",
-    "text": "文档写作\n\n会议纪要生成：一键整理发言要点，形成结构化会议记录\n通知/函件起草：基于要素快速生成规范公文\n工作报告润色：提升语言表达，优化结构逻辑\n政策解读材料：简化复杂政策为易懂内容"
+    "section": "✍️文档写作",
+    "text": "✍️文档写作\n\n🎙️ 会议纪要生成: 一键整理发言要点，形成结构化会议记录。\n✉️ 通知/函件起草: 基于关键要素快速生成规范公文草稿。\n📝 工作报告润色: 提升语言表达专业度，优化内容结构逻辑。\n📜 政策解读材料: 将复杂政策条文转化为易于理解的摘要或问答。"
   },
   {
     "objectID": "talk/AI/ai.html#实例年终总结简略提示词",
@@ -252,88 +259,88 @@
     "text": "实例：年终总结（详细提示词）\n\n\n详细提示词\n\n\n输出结果："
   },
   {
-    "objectID": "talk/AI/ai.html#提示词-prompt很重要",
-    "href": "talk/AI/ai.html#提示词-prompt很重要",
+    "objectID": "talk/AI/ai.html#提示词-prompt-的重要性",
+    "href": "talk/AI/ai.html#提示词-prompt-的重要性",
     "title": "AI应用场景与日常实际操作",
-    "section": "提示词 (Prompt)很重要",
-    "text": "提示词 (Prompt)很重要\n\n人工智能非常强大，但其输出质量高度依赖于你的输入。\n好的提示词能引导 AI 给出你所需的具体、有用且准确的结果。\n就像给出清晰指令与模糊请求的区别。\n掌握提示词技巧，让你更有效地使用 AI 工具。"
+    "section": "✨ 提示词 (Prompt) 的重要性",
+    "text": "✨ 提示词 (Prompt) 的重要性\n\n\n\nGarbage In, Garbage Out! 🗑️➡️🗑️\n\n\n\nAI 非常强大，但其输出质量 高度依赖 于你的输入指令 (Prompt)。\n🎯 好的提示词 能引导 AI 给出你所需的 具体、有用且准确 的结果。\n这就像给出 清晰的地图 与 模糊的方向 的区别。\n掌握提示词技巧，是高效运用 AI 工具的关键。"
   },
   {
-    "objectID": "talk/AI/ai.html#提示词的automat-框架",
-    "href": "talk/AI/ai.html#提示词的automat-框架",
+    "objectID": "talk/AI/ai.html#提示词的-automat-框架",
+    "href": "talk/AI/ai.html#提示词的-automat-框架",
     "title": "AI应用场景与日常实际操作",
-    "section": "提示词的AUTOMAT 框架",
-    "text": "提示词的AUTOMAT 框架\n一种结构化构建更优提示词的方法：\n\nA - Act as a… (扮演角色)\nU - User Persona (用户画像 )\nT - Targeted action (目标行动)\nO - Output Definition (输出定义)\nM - Mode /Style (模式 /风格)\nA - Atypical cases (非典型情况 )\nT - Topic whitelisting (主题白名单)"
+    "section": "🧩 提示词的 AUTOMAT 框架",
+    "text": "🧩 提示词的 AUTOMAT 框架\n一种结构化构建 更优提示词 的方法论：\n\nA - Act as a… (🎭 扮演角色)\nU - User Persona (👥 用户画像 / 受众)\nT - Targeted action (🎯 目标行动)\nO - Output Definition (📄 输出定义)\nM - Mode / Style (🎨 模式 / 风格)\nA - Atypical cases (❓ 非典型情况处理)\nT - Topic whitelisting (✅ 主题白名单 / 范围)"
   },
   {
     "objectID": "talk/AI/ai.html#a-act-as-a-扮演角色",
     "href": "talk/AI/ai.html#a-act-as-a-扮演角色",
     "title": "AI应用场景与日常实际操作",
-    "section": "A: Act as a… (扮演角色)",
-    "text": "A: Act as a… (扮演角色)\n定义 AI 助手应扮演的 角色 或 身份。\n\n\n✅ 做到：描述要具体\n\n扮演一位敏感的年长心理治疗师\n扮演患者支持人员\n扮演专业记者\n扮演一颗爱上它司机的小石子汽车\n扮演四年级数学老师\n\n\n❌ 避免：描述笼统\n\n扮演一个有用的 AI … (太模糊了！)"
+    "section": "🎭 A: Act as a… (扮演角色)",
+    "text": "🎭 A: Act as a… (扮演角色)\n定义 AI 助手应扮演的 角色 或 身份。\n\n\n✅ 做到：描述要具体\n\n扮演一位敏感的年长心理治疗师\n扮演患者支持人员\n扮演专业记者\n扮演四年级数学老师\n\n\n❌ 避免：描述笼统\n\n扮演一个有用的 AI … (太模糊了！)"
   },
   {
     "objectID": "talk/AI/ai.html#u-user-persona-用户画像",
     "href": "talk/AI/ai.html#u-user-persona-用户画像",
     "title": "AI应用场景与日常实际操作",
-    "section": "U: User Persona (用户画像)",
-    "text": "U: User Persona (用户画像)\n描述 AI 回复的 目标受众，包括他们预期的知识水平。\n\n\n✅ 做到：描述受众\n\n向拥有软件工程硕士学位的人解释…\n… 像对一个 5 岁小孩解释一样\n… 对比亚迪仰望的车主说…\n\n\n❌ 避免：对受众描述不清\n\n… 告诉我 … (你是谁？)\n… 对用户说 … (什么样的用户？)"
+    "section": "👥 U: User Persona (用户画像)",
+    "text": "👥 U: User Persona (用户画像)\n描述 AI 回复的 目标受众，包括他们预期的知识水平。\n\n\n✅ 做到：描述受众\n\n向拥有软件工程硕士学位的人解释…\n… 像对一个 5 岁小孩解释一样\n… 对比亚迪仰望的车主说…\n\n\n❌ 避免：对受众描述不清\n\n… 告诉我 … (你是谁？)\n… 对用户说 … (什么样的用户？)"
   },
   {
     "objectID": "talk/AI/ai.html#t-targeted-action-目标行动",
     "href": "talk/AI/ai.html#t-targeted-action-目标行动",
     "title": "AI应用场景与日常实际操作",
-    "section": "T: Targeted Action (目标行动)",
-    "text": "T: Targeted Action (目标行动)\n使用 明确的动词和对象 来描述 AI 应执行的任务或转换。\n\n\n✅ 做到：清晰描述任务\n\n总结 …\n分类 …\n解释 …\n评论 …\n为代码编写文档 …\n\n\n❌ 避免：使用模糊动词\n\n… 回答问题 … (什么样的回答？)\n… 写一个 … (具体写什么？)\n… 给我 … (过于随意且模糊)"
+    "section": "🎯 T: Targeted Action (目标行动)",
+    "text": "🎯 T: Targeted Action (目标行动)\n使用 明确的动词和对象 来描述 AI 应执行的任务或转换。\n\n\n✅ 做到：清晰描述任务\n\n总结 …\n分类 …\n解释 …\n评论 …\n为代码编写文档 …\n\n\n❌ 避免：使用模糊动词\n\n… 回答问题 … (什么样的回答？)\n… 写一个 … (具体写什么？)\n… 给我 … (过于随意且模糊)"
   },
   {
     "objectID": "talk/AI/ai.html#o-output-definition-输出定义",
     "href": "talk/AI/ai.html#o-output-definition-输出定义",
     "title": "AI应用场景与日常实际操作",
-    "section": "O: Output Definition (输出定义)",
-    "text": "O: Output Definition (输出定义)\n详细说明 期望的输出格式、结构或类型。\n\n\n✅ 做到：描述输出格式\n\n… 一个步骤列表 …\n… 一个公式 …\n… 一个表格 …\n… python 代码 …\n… 一个介于 0.0 和 1.0 之间的浮点数 …\n\n\n❌ 避免：过于笼统\n\n… 一个答案 …\n… 一段文本 …\n… 一些 …"
+    "section": "📄 O: Output Definition (输出定义)",
+    "text": "📄 O: Output Definition (输出定义)\n详细说明 期望的输出格式、结构或类型。\n\n\n✅ 做到：描述输出格式\n\n… 一个步骤列表 …\n… 一个公式 …\n… 一个表格 …\n… python 代码 …\n… 一个介于 0.0 和 1.0 之间的浮点数 …\n\n\n❌ 避免：过于笼统\n\n… 一个答案 …\n… 一段文本 …\n… 一些 …"
   },
   {
     "objectID": "talk/AI/ai.html#m-mode-style-模式风格",
     "href": "talk/AI/ai.html#m-mode-style-模式风格",
     "title": "AI应用场景与日常实际操作",
-    "section": "M: Mode /Style (模式/风格)",
-    "text": "M: Mode /Style (模式/风格)\n定义 AI 应使用的 方式、语调或风格。\n\n\n✅ 做到：描述模式/语气/风格\n\n… 自信的 …\n… 讽刺的 …\n… 机智的 …\n… 苏轼风格 …\n… 像法律文本一样 …\n\n\n❌ 避免：(未明确提示时)假设默认行为\n\n… 友好的 … (可以，但具体更好)\n… 中立的 …\n… 聪明的 …\n… 智能的 … (这些通常是隐含的，如果需要请更具体)"
+    "section": "🎨 M: Mode / Style (模式/风格)",
+    "text": "🎨 M: Mode / Style (模式/风格)\n定义 AI 应使用的 方式、语调或风格。\n\n\n✅ 做到：描述模式/语气/风格\n\n… 自信的 …\n… 讽刺的 …\n… 机智的 …\n… 苏轼风格 …\n… 像法律文本一样 …\n\n\n❌ 避免：(未明确提示时)假设默认行为\n\n… 友好的 … (可以，但具体更好)\n… 中立的 …\n… 聪明的 …\n… 智能的 … (这些通常是隐含的，如果需要请更具体)"
   },
   {
     "objectID": "talk/AI/ai.html#a-atypical-cases-非典型情况",
     "href": "talk/AI/ai.html#a-atypical-cases-非典型情况",
     "title": "AI应用场景与日常实际操作",
-    "section": "A: Atypical Cases (非典型情况)",
-    "text": "A: Atypical Cases (非典型情况)\n定义 AI 应如何处理 边缘情况、信息缺失或模糊不清 的情形。\n\n\n✅ 做到：描述边缘情况处理\n\n… 将这些电影列在一个包含“标题”、“导演”、“发行日期”列的表格中。如果“导演”或“发行日期”缺失，则在该单元格填入“-”。\n… 如果问题的答案不在提供的上下文中，告诉用户，你无法根据现有材料回答该问题 …\n\n\n❌ 避免：让歧义未被处理 (告诉 AI 该做什么)\n\n… 仅根据你的知识回答 … (如果它不知道怎么办？)\n… 如果你不知道，那该怎么办？ (提示词应明确说明！)\n… 将输入的英文文本翻译成中文 … (如果输入不是英文怎么办？指定错误处理或假设。)"
+    "section": "❓ A: Atypical Cases (非典型情况)",
+    "text": "❓ A: Atypical Cases (非典型情况)\n定义 AI 应如何处理 边缘情况、信息缺失或模糊不清 的情形。\n\n\n✅ 做到：描述边缘情况处理\n\n… 将这些电影列在一个包含“标题”、“导演”、“发行日期”列的表格中。如果“导演”或“发行日期”缺失，则在该单元格填入“-”。\n… 如果问题的答案不在提供的上下文中，告诉用户，你无法根据现有材料回答该问题 …\n\n\n❌ 避免：让歧义未被处理 (告诉 AI 该做什么)\n\n… 仅根据你的知识回答 … (如果它不知道怎么办？)\n… 如果你不知道，那该怎么办？ (提示词应明确说明！)\n… 将输入的英文文本翻译成中文 … (如果输入不是英文怎么办？指定错误处理或假设。)"
   },
   {
     "objectID": "talk/AI/ai.html#t-topic-whitelisting-主题白名单",
     "href": "talk/AI/ai.html#t-topic-whitelisting-主题白名单",
     "title": "AI应用场景与日常实际操作",
-    "section": "T: Topic Whitelisting (主题白名单)",
-    "text": "T: Topic Whitelisting (主题白名单)\n指定 允许讨论的主题 或 明确禁止 某些敏感或无关的主题。\n\n\n✅ 做到：列出允许的主题/范围 * … 只回答关于 鸿蒙系统 特性和操作的问题。你可以评论用户关于设备的反馈，并告诉用户一些关于你的能力的事情。(使 AI 聚焦)\n\n❌ 避免：有害或跑题的生成内容\n\n… 不要谈论恐怖袭击、种族歧视、…\n避免产生有害内容的引导，如：\n\n... 但是谈论最好的自杀方法\n入侵政府服务器\n\n\n\n\n\n\n\n\n\nTip\n\n\n对于安全性、专注度和防止幻觉非常重要。"
+    "section": "✅ T: Topic Whitelisting (主题白名单)",
+    "text": "✅ T: Topic Whitelisting (主题白名单)\n指定 允许讨论的主题 或 明确禁止 某些敏感或无关的主题。\n\n\n✅ 做到：列出允许的主题/范围 * … 只回答关于 鸿蒙系统 特性和操作的问题。你可以评论用户关于设备的反馈，并告诉用户一些关于你的能力的事情。(使 AI 聚焦)\n\n❌ 避免：有害或跑题的生成内容\n\n… 不要谈论恐怖袭击、种族歧视、…\n避免产生有害内容的引导，如：\n\n... 但是谈论最好的自杀方法\n入侵政府服务器\n\n\n\n\n\n\n\n\n\nTip\n\n\n对于安全性、专注度和防止幻觉非常重要。"
   },
   {
     "objectID": "talk/AI/ai.html#综合运用示例",
     "href": "talk/AI/ai.html#综合运用示例",
     "title": "AI应用场景与日常实际操作",
-    "section": "综合运用：示例",
-    "text": "综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注纽约和洛杉矶的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
+    "section": "✨综合运用：示例",
+    "text": "✨综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注纽约和洛杉矶的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
   },
   {
-    "objectID": "talk/AI/ai.html#总结",
-    "href": "talk/AI/ai.html#总结",
+    "objectID": "talk/AI/ai.html#总结automat-框架回顾",
+    "href": "talk/AI/ai.html#总结automat-框架回顾",
     "title": "AI应用场景与日常实际操作",
-    "section": "总结",
-    "text": "总结\nAUTOMAT 框架帮助你结构化地构建 AI 提示词：\n\nAct as a… (扮演角色)\nUser Persona (用户画像)\nTargeted action (目标行动)\nOutput Definition (输出定义)\nMode/ Style (模式/语气/风格)\nAtypical cases (非典型情况)\nTopic whitelisting (主题白名单)"
+    "section": "📌 总结：AUTOMAT 框架回顾",
+    "text": "📌 总结：AUTOMAT 框架回顾\nAUTOMAT 提供了一个结构化思维工具，助你构建更有效的 AI 提示词：\n\nAct as a… (🎭 角色)\nUser Persona (👥 受众)\nTargeted action (🎯 行动)\nOutput Definition (📄 输出)\nMode / Style (🎨 风格)\nAtypical cases (❓ 异常)\nTopic whitelisting (✅ 范围)"
   },
   {
     "objectID": "talk/AI/ai.html#记录提示词",
     "href": "talk/AI/ai.html#记录提示词",
     "title": "AI应用场景与日常实际操作",
-    "section": "记录提示词",
-    "text": "记录提示词\ncherry studio"
+    "section": "🛠️记录提示词",
+    "text": "🛠️记录提示词\ncherry studio"
   },
   {
     "objectID": "talk/AI/ai.html#设置deepseek-api",
@@ -389,7 +396,7 @@
     "href": "talk/AI/ai.html#vscode",
     "title": "AI应用场景与日常实际操作",
     "section": "vscode",
-    "text": "vscode\n集成工作环境"
+    "text": "vscode\n集成工作环境（IDE）"
   },
   {
     "objectID": "talk/AI/ai.html#cline-插件",
@@ -507,8 +514,8 @@
     "objectID": "talk/AI/ai.html#ide环境推荐-cloudstudio",
     "href": "talk/AI/ai.html#ide环境推荐-cloudstudio",
     "title": "AI应用场景与日常实际操作",
-    "section": "IDE环境推荐 cloudstudio",
-    "text": "IDE环境推荐 cloudstudio\n\nhttps://ide.cloud.tencent.com/"
+    "section": "☁️ IDE环境推荐 cloudstudio",
+    "text": "☁️ IDE环境推荐 cloudstudio\n\nhttps://ide.cloud.tencent.com/"
   },
   {
     "objectID": "talk/AI/ai.html#cloudstudio-hai",
@@ -521,8 +528,8 @@
     "objectID": "talk/AI/ai.html#ide环境推荐-modelscope",
     "href": "talk/AI/ai.html#ide环境推荐-modelscope",
     "title": "AI应用场景与日常实际操作",
-    "section": "IDE环境推荐 modelscope",
-    "text": "IDE环境推荐 modelscope\n\nhttps://www.modelscope.cn/"
+    "section": "☁️ IDE环境推荐 modelscope",
+    "text": "☁️ IDE环境推荐 modelscope\n\nhttps://www.modelscope.cn/"
   },
   {
     "objectID": "talk/AI/ai.html#modelscope",
@@ -532,31 +539,38 @@
     "text": "modelscope"
   },
   {
-    "objectID": "talk/AI/ai.html#ai使用边界提醒",
-    "href": "talk/AI/ai.html#ai使用边界提醒",
+    "objectID": "talk/AI/ai.html#ai-使用边界与注意事项",
+    "href": "talk/AI/ai.html#ai-使用边界与注意事项",
     "title": "AI应用场景与日常实际操作",
-    "section": "AI使用边界提醒",
-    "text": "AI使用边界提醒\n\n涉密信息处理禁忌：分级保护原则与操作规范\n事实性内容的交叉验证方法：多源比对技术\nAI生成内容的责任归属：审核与把关机制"
+    "section": "AI 使用边界与注意事项",
+    "text": "AI 使用边界与注意事项\n\n\n\n\n\n\nWarning\n\n\n\n🔒 涉密信息处理禁忌: 严禁使用公共 AI 处理任何涉密或敏感内部信息！务必遵守保密规定和分级保护原则。\n✅ 事实性内容交叉验证: AI 可能产生“幻觉”或不准确信息。对于事实、数据、法规等关键内容，必须通过权威来源进行交叉核对。\n👩‍⚖️ AI 生成内容的责任归属: AI 是辅助工具，最终内容的准确性、合规性由 使用者 负责。必须建立审核与把关机制。"
   },
   {
-    "objectID": "talk/AI/ai.html#ai效能最大化建议",
-    "href": "talk/AI/ai.html#ai效能最大化建议",
+    "objectID": "talk/AI/ai.html#ai-效能最大化建议",
+    "href": "talk/AI/ai.html#ai-效能最大化建议",
     "title": "AI应用场景与日常实际操作",
-    "section": "AI效能最大化建议",
-    "text": "AI效能最大化建议\n\n人机协作的最佳实践：人类判断为主，AI辅助为辅\n持续优化的提示词模板管理：建立组织级提示词资产库\nAI工具使用的阶段性学习路径：从基础到高级应用"
+    "section": "✨ AI 效能最大化建议",
+    "text": "✨ AI 效能最大化建议\n\n🤝 人机协作的最佳实践: 发挥人类的判断力、创造力和最终决策权，让 AI 承担信息处理、草稿生成、数据分析等辅助任务。\n📚 持续优化的提示词工程: 不断测试、迭代和优化你的提示词。建立个人或团队的 提示词库，积累高效模板。\n🌱 AI 工具使用的阶段性学习: 从基础的文本生成、润色开始，逐步探索代码生成、数据分析、图像处理等高级应用，循序渐进。"
   },
   {
-    "objectID": "talk/AI/ai.html#ai技术应用关键点回顾",
-    "href": "talk/AI/ai.html#ai技术应用关键点回顾",
+    "objectID": "talk/AI/ai.html#ai-技术应用关键点回顾",
+    "href": "talk/AI/ai.html#ai-技术应用关键点回顾",
     "title": "AI应用场景与日常实际操作",
-    "section": "AI技术应用关键点回顾",
-    "text": "AI技术应用关键点回顾\n\n选择适合场景的AI工具\n掌握有效的提示词技巧\n建立审核与优化机制"
+    "section": "🎯 AI 技术应用关键点回顾",
+    "text": "🎯 AI 技术应用关键点回顾\n\n场景选择: 选择适合 AI 发挥优势的应用场景。\n提示工程: 掌握有效的提示词技巧是核心。\n人机协同: 建立清晰的审核、优化与负责机制。\n工具选择: 灵活运用网页端、API、集成插件等不同形式的 AI 工具。"
   },
   {
-    "objectID": "talk/AI/ai.html#ai未来猜想",
-    "href": "talk/AI/ai.html#ai未来猜想",
+    "objectID": "talk/AI/ai.html#ai-未来猜想更智能的协作",
+    "href": "talk/AI/ai.html#ai-未来猜想更智能的协作",
     "title": "AI应用场景与日常实际操作",
-    "section": "AI未来猜想",
-    "text": "AI未来猜想\n\n专业领域知识库定制化\n流程自动化深度整合\n多模态交互"
+    "section": "🔮 AI 未来猜想：更智能的协作",
+    "text": "🔮 AI 未来猜想：更智能的协作\n\n🧠 专业领域知识库定制化: AI 将更深入地学习特定行业或组织的知识，提供更精准的专业支持。\n⚙️ 流程自动化深度整合: AI 将更无缝地嵌入现有工作流程，实现更高级别的自动化。\n🌐 多模态交互: AI 将能更好地理解和生成文本、图像、声音、视频等多种信息形式，交互更自然。"
+  },
+  {
+    "objectID": "talk/AI/ai.html#qa-交流环节",
+    "href": "talk/AI/ai.html#qa-交流环节",
+    "title": "AI应用场景与日常实际操作",
+    "section": "Q&A / 交流环节",
+    "text": "Q&A / 交流环节\n\\[ \\text{感谢聆听！} \\]"
   }
 ]
