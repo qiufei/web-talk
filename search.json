@@ -252,11 +252,11 @@
     "text": "实例：年终总结（详细提示词）\n\n\n详细提示词\n\n\n输出结果："
   },
   {
-    "objectID": "talk/AI/ai.html#提示词-prompting很重要",
-    "href": "talk/AI/ai.html#提示词-prompting很重要",
+    "objectID": "talk/AI/ai.html#提示词-prompt很重要",
+    "href": "talk/AI/ai.html#提示词-prompt很重要",
     "title": "AI应用场景与日常实际操作",
-    "section": "提示词 (Prompting)很重要",
-    "text": "提示词 (Prompting)很重要\n\n人工智能非常强大，但其输出质量高度依赖于你的输入。\n好的提示词能引导 AI 给出你所需的具体、有用且准确的结果。\n就像给出清晰指令与模糊请求的区别。\n掌握提示词技巧，让你更有效地使用 AI 工具。"
+    "section": "提示词 (Prompt)很重要",
+    "text": "提示词 (Prompt)很重要\n\n人工智能非常强大，但其输出质量高度依赖于你的输入。\n好的提示词能引导 AI 给出你所需的具体、有用且准确的结果。\n就像给出清晰指令与模糊请求的区别。\n掌握提示词技巧，让你更有效地使用 AI 工具。"
   },
   {
     "objectID": "talk/AI/ai.html#提示词的automat-框架",
@@ -284,28 +284,28 @@
     "href": "talk/AI/ai.html#t-targeted-action-目标行动",
     "title": "AI应用场景与日常实际操作",
     "section": "T: Targeted Action (目标行动)",
-    "text": "T: Targeted Action (目标行动)\n使用 明确的动词和对象 来描述 AI 应执行的任务或转换。\n\n\n✅ 做到：清晰描述任务\n\n总结 …\n分类 …\n解释 …\n提取 …\n格式化 …\n评论 …\n为代码编写文档 …\n\n\n❌ 避免：使用模糊动词\n\n… 回答问题 … (什么样的回答？)\n… 写一个 … (具体写什么？)\n… 给我 … (过于随意且模糊)"
+    "text": "T: Targeted Action (目标行动)\n使用 明确的动词和对象 来描述 AI 应执行的任务或转换。\n\n\n✅ 做到：清晰描述任务\n\n总结 …\n分类 …\n解释 …\n评论 …\n为代码编写文档 …\n\n\n❌ 避免：使用模糊动词\n\n… 回答问题 … (什么样的回答？)\n… 写一个 … (具体写什么？)\n… 给我 … (过于随意且模糊)"
   },
   {
     "objectID": "talk/AI/ai.html#o-output-definition-输出定义",
     "href": "talk/AI/ai.html#o-output-definition-输出定义",
     "title": "AI应用场景与日常实际操作",
     "section": "O: Output Definition (输出定义)",
-    "text": "O: Output Definition (输出定义)\n详细说明 期望的输出格式、结构或类型。\n\n\n✅ 做到：描述输出格式\n\n… 一个步骤列表 …\n… 一个公式 …\n… 一个表格 …\n… python 代码 …\n… 一个介于 0.0 和 1.0 之间的浮点数 …\n… 一个两字母 ISO 国家代码列表 …\n… 一首五言律诗 …\n\n\n❌ 避免：过于笼统\n\n… 一个答案 …\n… 一段文本 …\n… 一些 …"
+    "text": "O: Output Definition (输出定义)\n详细说明 期望的输出格式、结构或类型。\n\n\n✅ 做到：描述输出格式\n\n… 一个步骤列表 …\n… 一个公式 …\n… 一个表格 …\n… python 代码 …\n… 一个介于 0.0 和 1.0 之间的浮点数 …\n\n\n❌ 避免：过于笼统\n\n… 一个答案 …\n… 一段文本 …\n… 一些 …"
   },
   {
     "objectID": "talk/AI/ai.html#m-mode-style-模式风格",
     "href": "talk/AI/ai.html#m-mode-style-模式风格",
     "title": "AI应用场景与日常实际操作",
     "section": "M: Mode /Style (模式/风格)",
-    "text": "M: Mode /Style (模式/风格)\n定义 AI 应使用的 方式、语调或风格。\n\n\n✅ 做到：描述模式/语气/风格\n\n… 富有同情心的 …\n… 自信的 …\n… 抱怨的 …\n… 讽刺的 …\n… 机智的 …\n… 苏轼风格 …\n… 像法律文本一样 …\n\n\n❌ 避免：(未明确提示时)假设默认行为\n\n… 友好的 … (可以，但具体更好)\n… 中立的 …\n… 聪明的 …\n… 智能的 … (这些通常是隐含的，如果需要请更具体)"
+    "text": "M: Mode /Style (模式/风格)\n定义 AI 应使用的 方式、语调或风格。\n\n\n✅ 做到：描述模式/语气/风格\n\n… 自信的 …\n… 讽刺的 …\n… 机智的 …\n… 苏轼风格 …\n… 像法律文本一样 …\n\n\n❌ 避免：(未明确提示时)假设默认行为\n\n… 友好的 … (可以，但具体更好)\n… 中立的 …\n… 聪明的 …\n… 智能的 … (这些通常是隐含的，如果需要请更具体)"
   },
   {
     "objectID": "talk/AI/ai.html#a-atypical-cases-非典型情况",
     "href": "talk/AI/ai.html#a-atypical-cases-非典型情况",
     "title": "AI应用场景与日常实际操作",
     "section": "A: Atypical Cases (非典型情况)",
-    "text": "A: Atypical Cases (非典型情况)\n定义 AI 应如何处理 边缘情况、信息缺失或模糊不清 的情形。\n\n\n✅ 做到：描述边缘情况处理\n\n… 将这些电影列在一个包含“标题”、“导演”、“发行日期”列的表格中。如果“导演”或“发行日期”缺失，则在该单元格填入“-”。\n… 如果问题的答案不在提供的上下文中，告诉用户，你无法根据现有材料回答该问题 …\n\n\n❌ 避免：让歧义未被处理 (告诉 AI 该做什么)\n\n… 仅根据你的知识回答 … (如果它不知道怎么办？)\n… 如果你不知道，那该怎么办？ (提示词应明确说明！)\n… 将输入的英文文本翻译成法文 … (如果输入不是英文怎么办？指定错误处理或假设。)"
+    "text": "A: Atypical Cases (非典型情况)\n定义 AI 应如何处理 边缘情况、信息缺失或模糊不清 的情形。\n\n\n✅ 做到：描述边缘情况处理\n\n… 将这些电影列在一个包含“标题”、“导演”、“发行日期”列的表格中。如果“导演”或“发行日期”缺失，则在该单元格填入“-”。\n… 如果问题的答案不在提供的上下文中，告诉用户，你无法根据现有材料回答该问题 …\n\n\n❌ 避免：让歧义未被处理 (告诉 AI 该做什么)\n\n… 仅根据你的知识回答 … (如果它不知道怎么办？)\n… 如果你不知道，那该怎么办？ (提示词应明确说明！)\n… 将输入的英文文本翻译成中文 … (如果输入不是英文怎么办？指定错误处理或假设。)"
   },
   {
     "objectID": "talk/AI/ai.html#t-topic-whitelisting-主题白名单",
@@ -319,7 +319,7 @@
     "href": "talk/AI/ai.html#综合运用示例",
     "title": "AI应用场景与日常实际操作",
     "section": "综合运用：示例",
-    "text": "综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注东京和京都的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
+    "text": "综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注纽约和洛杉矶的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
   },
   {
     "objectID": "talk/AI/ai.html#总结",
@@ -334,6 +334,20 @@
     "title": "AI应用场景与日常实际操作",
     "section": "记录提示词",
     "text": "记录提示词\ncherry studio"
+  },
+  {
+    "objectID": "talk/AI/ai.html#设置deepseek-api",
+    "href": "talk/AI/ai.html#设置deepseek-api",
+    "title": "AI应用场景与日常实际操作",
+    "section": "设置deepseek api",
+    "text": "设置deepseek api"
+  },
+  {
+    "objectID": "talk/AI/ai.html#获取deepseek-api",
+    "href": "talk/AI/ai.html#获取deepseek-api",
+    "title": "AI应用场景与日常实际操作",
+    "section": "获取deepseek api",
+    "text": "获取deepseek api\n\nhttps://platform.deepseek.com/api_keys"
   },
   {
     "objectID": "talk/AI/ai.html#智能体",
@@ -354,7 +368,21 @@
     "href": "talk/AI/ai.html#智能体实例",
     "title": "AI应用场景与日常实际操作",
     "section": "智能体实例",
-    "text": "智能体实例\n\n\n输出数据：\n\n\n输出结果："
+    "text": "智能体实例\n\n\n输入数据：\n\n\n输出结果："
+  },
+  {
+    "objectID": "talk/AI/ai.html#智能体提示词",
+    "href": "talk/AI/ai.html#智能体提示词",
+    "title": "AI应用场景与日常实际操作",
+    "section": "智能体提示词",
+    "text": "智能体提示词"
+  },
+  {
+    "objectID": "talk/AI/ai.html#webdav云盘保存提示词",
+    "href": "talk/AI/ai.html#webdav云盘保存提示词",
+    "title": "AI应用场景与日常实际操作",
+    "section": "webdav云盘保存提示词",
+    "text": "webdav云盘保存提示词\n\nhttps://docs.cherry-ai.com/cherrystudio/preview/settings/data"
   },
   {
     "objectID": "talk/AI/ai.html#vscode",
@@ -383,6 +411,13 @@
     "title": "AI应用场景与日常实际操作",
     "section": "绘图实例",
     "text": "绘图实例\n\n\n网页端输入\n\n\n网页端输出"
+  },
+  {
+    "objectID": "talk/AI/ai.html#cline-任务输入",
+    "href": "talk/AI/ai.html#cline-任务输入",
+    "title": "AI应用场景与日常实际操作",
+    "section": "cline 任务输入",
+    "text": "cline 任务输入"
   },
   {
     "objectID": "talk/AI/ai.html#绘图实例-api",
@@ -434,11 +469,11 @@
     "text": "热力图（Heatmap）"
   },
   {
-    "objectID": "talk/AI/ai.html#绘制热力图提示词",
-    "href": "talk/AI/ai.html#绘制热力图提示词",
+    "objectID": "talk/AI/ai.html#绘制热力图cline输入",
+    "href": "talk/AI/ai.html#绘制热力图cline输入",
     "title": "AI应用场景与日常实际操作",
-    "section": "绘制热力图提示词",
-    "text": "绘制热力图提示词"
+    "section": "绘制热力图cline输入",
+    "text": "绘制热力图cline输入"
   },
   {
     "objectID": "talk/AI/ai.html#堆叠条形图stacked-bar-chart",
@@ -453,6 +488,34 @@
     "title": "AI应用场景与日常实际操作",
     "section": "散点气泡图（Bubble Scatter Plot）",
     "text": "散点气泡图（Bubble Scatter Plot）"
+  },
+  {
+    "objectID": "talk/AI/ai.html#ide环境推荐-cloudstudio",
+    "href": "talk/AI/ai.html#ide环境推荐-cloudstudio",
+    "title": "AI应用场景与日常实际操作",
+    "section": "IDE环境推荐 cloudstudio",
+    "text": "IDE环境推荐 cloudstudio\n\nhttps://ide.cloud.tencent.com/"
+  },
+  {
+    "objectID": "talk/AI/ai.html#cloudstudio-hai",
+    "href": "talk/AI/ai.html#cloudstudio-hai",
+    "title": "AI应用场景与日常实际操作",
+    "section": "cloudstudio HAI",
+    "text": "cloudstudio HAI"
+  },
+  {
+    "objectID": "talk/AI/ai.html#ide环境推荐-modelscope",
+    "href": "talk/AI/ai.html#ide环境推荐-modelscope",
+    "title": "AI应用场景与日常实际操作",
+    "section": "IDE环境推荐 modelscope",
+    "text": "IDE环境推荐 modelscope\n\nhttps://www.modelscope.cn/"
+  },
+  {
+    "objectID": "talk/AI/ai.html#modelscope",
+    "href": "talk/AI/ai.html#modelscope",
+    "title": "AI应用场景与日常实际操作",
+    "section": "modelscope",
+    "text": "modelscope"
   },
   {
     "objectID": "talk/AI/ai.html#ai使用边界提醒",
