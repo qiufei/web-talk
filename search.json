@@ -7,18 +7,11 @@
     "text": "我是邱飞，这是我的个人网站，\n用于分享一些数据分析文章，还有个人的记录和资料。"
   },
   {
-    "objectID": "talk/AI/index.html",
-    "href": "talk/AI/index.html",
-    "title": "AI应用场景与日常实际操作",
-    "section": "",
-    "text": "以大模型本身为主\n\ndeepseek网页版 + cherry studio\n\n大模型嵌入工具链 ：\n\ndeepseek api接口 + vscode + cline"
-  },
-  {
     "objectID": "talk/AI/index.html#ai使用的两种模式",
     "href": "talk/AI/index.html#ai使用的两种模式",
     "title": "AI应用场景与日常实际操作",
-    "section": "",
-    "text": "以大模型本身为主\n\ndeepseek网页版 + cherry studio\n\n大模型嵌入工具链 ：\n\ndeepseek api接口 + vscode + cline"
+    "section": "AI使用的两种模式",
+    "text": "AI使用的两种模式\n\n以大模型本身为主\n\ndeepseek网页版 + cherry studio\n\n大模型嵌入工具链 ：\n\ndeepseek api接口 + vscode + cline"
   },
   {
     "objectID": "talk/AI/index.html#文档写作",
@@ -102,14 +95,14 @@
     "href": "talk/AI/index.html#t-topic-whitelisting-主题白名单",
     "title": "AI应用场景与日常实际操作",
     "section": "T: Topic Whitelisting (主题白名单)",
-    "text": "T: Topic Whitelisting (主题白名单)\n指定 允许讨论的主题 或 明确禁止 某些敏感或无关的主题。\n\n\n✅ 做到：列出允许的主题/范围 * … 只回答关于 鸿蒙系统 特性和操作的问题。你可以评论用户关于设备的反馈，并告诉用户一些关于你的能力的事情。(使 AI 聚焦)\n\n❌ 避免：有害或跑题的生成内容\n\n… 不要谈论恐怖袭击、种族歧视、…\n避免产生有害内容的引导，如：\n\n... 但是谈论最好的自杀方法\n入侵政府服务器\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n对于安全性、专注度和防止幻觉非常重要。"
+    "text": "T: Topic Whitelisting (主题白名单)\n指定 允许讨论的主题 或 明确禁止 某些敏感或无关的主题。\n\n\n✅ 做到：列出允许的主题/范围 * … 只回答关于 鸿蒙系统 特性和操作的问题。你可以评论用户关于设备的反馈，并告诉用户一些关于你的能力的事情。(使 AI 聚焦)\n\n❌ 避免：有害或跑题的生成内容\n\n… 不要谈论恐怖袭击、种族歧视、…\n避免产生有害内容的引导，如：\n\n... 但是谈论最好的自杀方法\n入侵政府服务器\n\n\n\n\n\n\n\n\n\nTip\n\n\n对于安全性、专注度和防止幻觉非常重要。"
   },
   {
     "objectID": "talk/AI/index.html#综合运用示例",
     "href": "talk/AI/index.html#综合运用示例",
     "title": "AI应用场景与日常实际操作",
     "section": "综合运用：示例",
-    "text": "综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注东京和京都的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
+    "text": "综合运用：示例\n让我们使用 AUTOMAT 构建一个提示词：\n“[A] 扮演 一位专业的旅行博主。[U] 为 首次计划去美国旅行、对该国了解甚少的读者写作。[T] 创建 一个为期 7 天、重点关注东京和京都的行程。[O] 以 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。[M] 使用 热情和鼓励的语气。[A] 如果 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。[T] 只包括 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”\n\n\n\n\n\n\nNote\n\n\n复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。"
   },
   {
     "objectID": "talk/AI/index.html#总结",
@@ -277,7 +270,7 @@
     "href": "index.html",
     "title": "发言：讲座",
     "section": "",
-    "text": "AI应用场景与日常实际操作\n\n\n\n\n\n\n邱飞\n\n\nMar 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt Is Sheer Good Fortune To Miss Somebody Long Before They Leave You\n\n\n\n\n\n\n\n\n\nMar 24, 2008\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "AI应用场景与日常实际操作\n\n\n\n\n\n\n\n\n\nMar 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt Is Sheer Good Fortune To Miss Somebody Long Before They Leave You\n\n\n\n\n\n\n\n\n\nMar 24, 2008\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talk/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html",
