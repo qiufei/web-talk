@@ -392,6 +392,13 @@
     "text": "webdav云盘保存提示词\n\nhttps://docs.cherry-ai.com/cherrystudio/preview/settings/data"
   },
   {
+    "objectID": "talk/AI/ai.html#绘图实例为什么要嵌入工具链",
+    "href": "talk/AI/ai.html#绘图实例为什么要嵌入工具链",
+    "title": "AI应用场景与日常实际操作",
+    "section": "绘图实例：为什么要嵌入工具链？",
+    "text": "绘图实例：为什么要嵌入工具链？\n\n\n网页端输入\n\n\n网页端输出"
+  },
+  {
     "objectID": "talk/AI/ai.html#vscode",
     "href": "talk/AI/ai.html#vscode",
     "title": "AI应用场景与日常实际操作",
@@ -411,13 +418,6 @@
     "title": "AI应用场景与日常实际操作",
     "section": "cline 设置 deepseek api",
     "text": "cline 设置 deepseek api"
-  },
-  {
-    "objectID": "talk/AI/ai.html#绘图实例",
-    "href": "talk/AI/ai.html#绘图实例",
-    "title": "AI应用场景与日常实际操作",
-    "section": "绘图实例",
-    "text": "绘图实例\n\n\n网页端输入\n\n\n网页端输出"
   },
   {
     "objectID": "talk/AI/ai.html#cline-任务输入",
@@ -466,7 +466,7 @@
     "href": "talk/AI/ai.html#数据可视化方案",
     "title": "AI应用场景与日常实际操作",
     "section": "数据可视化方案",
-    "text": "数据可视化方案"
+    "text": "数据可视化方案\n让AI教你用AI"
   },
   {
     "objectID": "talk/AI/ai.html#热力图heatmap",
