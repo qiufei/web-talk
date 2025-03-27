@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="邱飞">
+<meta name="dcterms.date" content="2025-03-28">
 
-<title>发言：讲座</title>
+<title>AI应用场景与日常实际操作</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./profile.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0a6deebd9e82ea51b31c25b75327e5f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-449fe9d2e8b55805e22d9263c3f70d3c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../profile.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0a6deebd9e82ea51b31c25b75327e5f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-449fe9d2e8b55805e22d9263c3f70d3c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,73 +71,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -169,7 +111,7 @@ window.Quarto = {
 <span class="menu-text">工具</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">简介</span></a>
   </li>  
 </ul>
@@ -181,92 +123,468 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">发言：讲座</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI应用场景与日常实际操作</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>邱飞 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 28, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="ai使用的两种模式" class="level2">
+<h2 class="anchored" data-anchor-id="ai使用的两种模式">AI使用的两种模式</h2>
+<ul>
+<li>以大模型本身为主
+<ul>
+<li>deepseek网页版 + cherry studio</li>
+</ul></li>
+<li>大模型嵌入工具链 ：
+<ul>
+<li>deepseek api接口 + vscode + cline</li>
+</ul></li>
+</ul>
+</section>
+<section id="以大模型本身为主" class="level1">
+<h1>以大模型本身为主</h1>
+<section id="文档写作" class="level2">
+<h2 class="anchored" data-anchor-id="文档写作">文档写作</h2>
+<ul>
+<li>会议纪要生成：一键整理发言要点，形成结构化会议记录</li>
+<li>通知/函件起草：基于要素快速生成规范公文</li>
+<li>工作报告润色：提升语言表达，优化结构逻辑</li>
+<li>政策解读材料：简化复杂政策为易懂内容</li>
+</ul>
+</section>
+<section id="实例年终总结简略提示词" class="level2">
+<h2 class="anchored" data-anchor-id="实例年终总结简略提示词">实例：年终总结（简略提示词）</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>简略提示词</p>
+<p><img src="2025-03-26-16-06-36.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p>输出结果：</p>
+<p><img src="2025-03-26-16-07-14.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="实例年终总结详细提示词" class="level2">
+<h2 class="anchored" data-anchor-id="实例年终总结详细提示词">实例：年终总结（详细提示词）</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>详细提示词</p>
+<p><img src="2025-03-26-15-58-22.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p>输出结果：</p>
+<p><img src="2025-03-26-16-03-07.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="提示词-prompting很重要" class="level2">
+<h2 class="anchored" data-anchor-id="提示词-prompting很重要">提示词 (Prompting)很重要</h2>
+<ul>
+<li>人工智能非常强大，但其输出质量<strong>高度依赖</strong>于你的输入。</li>
+<li><strong>好的提示词能引导 AI 给出你所需的具体、有用且准确的结果。</strong></li>
+<li>就像给出清晰指令与模糊请求的区别。</li>
+<li>掌握提示词技巧，让你更有效地使用 AI 工具。</li>
+</ul>
+</section>
+<section id="提示词的automat-框架" class="level2">
+<h2 class="anchored" data-anchor-id="提示词的automat-框架">提示词的AUTOMAT 框架</h2>
+<p>一种结构化构建更优提示词的方法：</p>
+<ul>
+<li><strong>A</strong> - Act as a… (扮演角色)</li>
+<li><strong>U</strong> - User Persona (用户画像 )</li>
+<li><strong>T</strong> - Targeted action (目标行动)</li>
+<li><strong>O</strong> - Output Definition (输出定义)</li>
+<li><strong>M</strong> - Mode /Style (模式 /风格)</li>
+<li><strong>A</strong> - Atypical cases (非典型情况 )</li>
+<li><strong>T</strong> - Topic whitelisting (主题白名单)</li>
+</ul>
+</section>
+<section id="a-act-as-a-扮演角色" class="level2">
+<h2 class="anchored" data-anchor-id="a-act-as-a-扮演角色">A: Act as a… (扮演角色)</h2>
+<p>定义 AI 助手应扮演的 <strong>角色</strong> 或 <strong>身份</strong>。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：描述要具体</strong></p>
+<ul>
+<li>扮演一位敏感的年长心理治疗师</li>
+<li>扮演患者支持人员</li>
+<li>扮演专业记者</li>
+<li>扮演一颗爱上它司机的小石子汽车</li>
+<li>扮演四年级数学老师</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：描述笼统</strong></p>
+<ul>
+<li>扮演一个有用的 AI … <em>(太模糊了！)</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="u-user-persona-用户画像" class="level2">
+<h2 class="anchored" data-anchor-id="u-user-persona-用户画像">U: User Persona (用户画像)</h2>
+<p>描述 AI 回复的 <strong>目标受众</strong>，包括他们预期的知识水平。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：描述受众</strong></p>
+<ul>
+<li>向拥有软件工程硕士学位的人解释…</li>
+<li>… 像对一个 5 岁小孩解释一样</li>
+<li>… 对比亚迪仰望的车主说…</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：对受众描述不清</strong></p>
+<ul>
+<li>… 告诉我 … <em>(你是谁？)</em></li>
+<li>… 对用户说 … <em>(什么样的用户？)</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="t-targeted-action-目标行动" class="level2">
+<h2 class="anchored" data-anchor-id="t-targeted-action-目标行动">T: Targeted Action (目标行动)</h2>
+<p>使用 <strong>明确的动词和对象</strong> 来描述 AI 应执行的任务或转换。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：清晰描述任务</strong></p>
+<ul>
+<li>总结 …</li>
+<li>分类 …</li>
+<li>解释 …</li>
+<li>提取 …</li>
+<li>格式化 …</li>
+<li>评论 …</li>
+<li>为代码编写文档 …</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：使用模糊动词</strong></p>
+<ul>
+<li>… 回答问题 … <em>(什么样的回答？)</em></li>
+<li>… 写一个 … <em>(具体写什么？)</em></li>
+<li>… 给我 … <em>(过于随意且模糊)</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="o-output-definition-输出定义" class="level2">
+<h2 class="anchored" data-anchor-id="o-output-definition-输出定义">O: Output Definition (输出定义)</h2>
+<p>详细说明 <strong>期望的输出格式、结构或类型</strong>。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：描述输出格式</strong></p>
+<ul>
+<li>… 一个步骤列表 …</li>
+<li>… 一个公式 …</li>
+<li>… 一个表格 …</li>
+<li>… python 代码 …</li>
+<li>… 一个介于 0.0 和 1.0 之间的浮点数 …</li>
+<li>… 一个两字母 ISO 国家代码列表 …</li>
+<li>… 一首五言律诗 …</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：过于笼统</strong></p>
+<ul>
+<li>… 一个答案 …</li>
+<li>… 一段文本 …</li>
+<li>… 一些 …</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="m-mode-style-模式风格" class="level2">
+<h2 class="anchored" data-anchor-id="m-mode-style-模式风格">M: Mode /Style (模式/风格)</h2>
+<p>定义 AI 应使用的 <strong>方式、语调或风格</strong>。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：描述模式/语气/风格</strong></p>
+<ul>
+<li>… 富有同情心的 …</li>
+<li>… 自信的 …</li>
+<li>… 抱怨的 …</li>
+<li>… 讽刺的 …</li>
+<li>… 机智的 …</li>
+<li>… 苏轼风格 …</li>
+<li>… 像法律文本一样 …</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：(未明确提示时)假设默认行为</strong></p>
+<ul>
+<li>… 友好的 … <em>(可以，但具体更好)</em></li>
+<li>… 中立的 …</li>
+<li>… 聪明的 …</li>
+<li>… 智能的 … <em>(这些通常是隐含的，如果需要请更具体)</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="a-atypical-cases-非典型情况" class="level2">
+<h2 class="anchored" data-anchor-id="a-atypical-cases-非典型情况">A: Atypical Cases (非典型情况)</h2>
+<p>定义 AI 应如何处理 <strong>边缘情况、信息缺失或模糊不清</strong> 的情形。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：描述边缘情况处理</strong></p>
+<ul>
+<li>… 将这些电影列在一个包含“标题”、“导演”、“发行日期”列的表格中。如果“导演”或“发行日期”缺失，则在该单元格填入“-”。</li>
+<li>… 如果问题的答案不在提供的上下文中，告诉用户，你无法根据现有材料回答该问题 …</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：让歧义未被处理</strong> <em>(告诉 AI </em>该做什么<em>)</em></p>
+<ul>
+<li>… 仅根据你的知识回答 … <em>(如果它不知道怎么办？)</em></li>
+<li>… 如果你不知道，那该怎么办？ <em>(提示词应明确说明！)</em></li>
+<li>… 将输入的英文文本翻译成法文 … <em>(如果输入不是英文怎么办？指定错误处理或假设。)</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="t-topic-whitelisting-主题白名单" class="level2">
+<h2 class="anchored" data-anchor-id="t-topic-whitelisting-主题白名单">T: Topic Whitelisting (主题白名单)</h2>
+<p>指定 <strong>允许讨论的主题</strong> 或 <strong>明确禁止</strong> 某些敏感或无关的主题。</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>✅ 做到：列出允许的主题/范围</strong> * … 只回答关于 <strong>鸿蒙系统</strong> 特性和操作的问题。你可以评论用户关于设备的反馈，并告诉用户一些关于你的能力的事情。<em>(使 AI 聚焦)</em></p>
+</div><div class="column" style="width:50%;">
+<p><strong>❌ 避免：有害或跑题的生成内容</strong></p>
+<ul>
+<li><p>… 不要谈论恐怖袭击、种族歧视、…</p></li>
+<li><p>避免产生有害内容的引导，如：</p>
+<ul>
+<li><code>... 但是谈论最好的自杀方法</code></li>
+<li><code>入侵政府服务器</code></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>对于安全性、专注度和防止幻觉非常重要。</p>
+</div>
+</div>
+</section>
+<section id="综合运用示例" class="level2">
+<h2 class="anchored" data-anchor-id="综合运用示例">综合运用：示例</h2>
+<p>让我们使用 AUTOMAT 构建一个提示词：</p>
+<p>“<strong>[A] 扮演</strong> 一位专业的旅行博主。<strong>[U] 为</strong> 首次计划去美国旅行、对该国了解甚少的读者写作。<strong>[T] 创建</strong> 一个为期 7 天、重点关注东京和京都的行程。<strong>[O] 以</strong> 逐日列表的形式呈现输出，每天包含早、中、晚活动的要点。包含简短描述和主要地点间的预估旅行时间。<strong>[M] 使用</strong> 热情和鼓励的语气。<strong>[A] 如果</strong> 建议的某天某个特定博物馆或景点关闭，推荐附近类似的替代方案。<strong>[T] 只包括</strong> 与文化、美食和观光相关的活动；不要包含夜生活或购物推荐。”</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>复杂提示词对底层模型的要求较高，如果底层模型实例不强，模型会直接忽略这些提示词。</p>
+</div>
+</div>
+</section>
+<section id="总结" class="level2">
+<h2 class="anchored" data-anchor-id="总结">总结</h2>
+<p>AUTOMAT 框架帮助你结构化地构建 AI 提示词：</p>
+<ul>
+<li><strong>A</strong>ct as a… (扮演角色)</li>
+<li><strong>U</strong>ser Persona (用户画像)</li>
+<li><strong>T</strong>argeted action (目标行动)</li>
+<li><strong>O</strong>utput Definition (输出定义)</li>
+<li><strong>M</strong>ode/ Style (模式/语气/风格)</li>
+<li><strong>A</strong>typical cases (非典型情况)</li>
+<li><strong>T</strong>opic whitelisting (主题白名单)</li>
+</ul>
+</section>
+<section id="记录提示词" class="level2">
+<h2 class="anchored" data-anchor-id="记录提示词">记录提示词</h2>
+<p>cherry studio</p>
+<p><img src="2025-03-26-16-23-27.png" class="img-fluid"></p>
+</section>
+<section id="智能体" class="level2">
+<h2 class="anchored" data-anchor-id="智能体">智能体</h2>
+<p><img src="2025-03-26-16-28-07.png" class="img-fluid"></p>
+</section>
+<section id="创建智能体" class="level2">
+<h2 class="anchored" data-anchor-id="创建智能体">创建智能体</h2>
+<p><img src="2025-03-26-16-40-06.png" class="img-fluid"></p>
+</section>
+<section id="智能体实例" class="level2">
+<h2 class="anchored" data-anchor-id="智能体实例">智能体实例</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>输出数据：</p>
+<p><img src="2025-03-26-16-59-38.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p>输出结果：</p>
+<p><img src="2025-03-26-16-58-27.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="大模型嵌入工具链" class="level1">
+<h1>大模型嵌入工具链</h1>
+<section id="vscode" class="level2">
+<h2 class="anchored" data-anchor-id="vscode">vscode</h2>
+<p>集成工作环境</p>
+<p><img src="2025-03-26-17-08-36.png" class="img-fluid"></p>
+</section>
+<section id="cline-插件" class="level2">
+<h2 class="anchored" data-anchor-id="cline-插件">cline 插件</h2>
+<p><img src="2025-03-26-17-22-29.png" class="img-fluid"></p>
+</section>
+<section id="cline-设置-deepseek-api" class="level2">
+<h2 class="anchored" data-anchor-id="cline-设置-deepseek-api">cline 设置 deepseek api</h2>
+<p><img src="2025-03-26-17-23-50.png" class="img-fluid"></p>
+</section>
+<section id="绘图实例" class="level2">
+<h2 class="anchored" data-anchor-id="绘图实例">绘图实例</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>网页端输入</p>
+<p><img src="2025-03-26-17-18-24.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p>网页端输出</p>
+<p><img src="2025-03-26-17-20-05.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="绘图实例-api" class="level2">
+<h2 class="anchored" data-anchor-id="绘图实例-api">绘图实例 api</h2>
+<p><img src="gantt_code.png" class="img-fluid"></p>
+</section>
+<section id="绘图结果" class="level2">
+<h2 class="anchored" data-anchor-id="绘图结果">绘图结果</h2>
+<p><img src="gantt_chart.png" class="img-fluid"></p>
+</section>
+<section id="数据分析实例" class="level2">
+<h2 class="anchored" data-anchor-id="数据分析实例">数据分析实例</h2>
+<p><img src="2025-03-26-22-05-38.png" class="img-fluid"></p>
+</section>
+<section id="数据清洗" class="level2">
+<h2 class="anchored" data-anchor-id="数据清洗">数据清洗</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="2025-03-26-22-08-28.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="2025-03-26-22-09-16.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="统计分析" class="level2">
+<h2 class="anchored" data-anchor-id="统计分析">统计分析</h2>
+<div class="columns">
+<div class="column" style="width:&quot;50%;">
+<p><img src="2025-03-26-22-11-17.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="2025-03-26-22-11-40.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="数据可视化方案" class="level2">
+<h2 class="anchored" data-anchor-id="数据可视化方案">数据可视化方案</h2>
+<div class="columns">
+<div class="column" style="width:&quot;50%;">
+<p><img src="2025-03-26-22-13-35.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="2025-03-26-22-14-08.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="热力图heatmap" class="level2">
+<h2 class="anchored" data-anchor-id="热力图heatmap">热力图（Heatmap）</h2>
+<p><img src="热力图.png" class="img-fluid"></p>
+</section>
+<section id="绘制热力图提示词" class="level2">
+<h2 class="anchored" data-anchor-id="绘制热力图提示词">绘制热力图提示词</h2>
+<p><img src="2025-03-26-22-40-21.png" class="img-fluid"></p>
+</section>
+<section id="堆叠条形图stacked-bar-chart" class="level2">
+<h2 class="anchored" data-anchor-id="堆叠条形图stacked-bar-chart">堆叠条形图（Stacked Bar Chart）</h2>
+<p><img src="堆叠条形图.png" class="img-fluid"></p>
+</section>
+<section id="散点气泡图bubble-scatter-plot" class="level2">
+<h2 class="anchored" data-anchor-id="散点气泡图bubble-scatter-plot">散点气泡图（Bubble Scatter Plot）</h2>
+<p><img src="散点图.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="ai风险防控指南" class="level1">
+<h1>AI风险防控指南</h1>
+<section id="ai使用边界提醒" class="level2">
+<h2 class="anchored" data-anchor-id="ai使用边界提醒">AI使用边界提醒</h2>
+<ul>
+<li>涉密信息处理禁忌：分级保护原则与操作规范</li>
+<li>事实性内容的交叉验证方法：多源比对技术</li>
+<li>AI生成内容的责任归属：审核与把关机制</li>
+</ul>
+</section>
+<section id="ai效能最大化建议" class="level2">
+<h2 class="anchored" data-anchor-id="ai效能最大化建议">AI效能最大化建议</h2>
+<ul>
+<li>人机协作的最佳实践：人类判断为主，AI辅助为辅</li>
+<li>持续优化的提示词模板管理：建立组织级提示词资产库</li>
+<li>AI工具使用的阶段性学习路径：从基础到高级应用</li>
+</ul>
+</section>
+</section>
+<section id="总结与展望" class="level1">
+<h1>总结与展望</h1>
+<section id="ai技术应用关键点回顾" class="level2">
+<h2 class="anchored" data-anchor-id="ai技术应用关键点回顾">AI技术应用关键点回顾</h2>
+<ul>
+<li>选择适合场景的AI工具</li>
+<li>掌握有效的提示词技巧</li>
+<li>建立审核与优化机制</li>
+</ul>
+</section>
+<section id="ai未来发展趋势" class="level2">
+<h2 class="anchored" data-anchor-id="ai未来发展趋势">AI未来发展趋势</h2>
+<ul>
+<li>专业领域知识库定制化</li>
+<li>流程自动化深度整合</li>
+<li>多模态交互</li>
+</ul>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1743120000000" data-listing-file-modified-sort="1743043010711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="661">
-<a href="./talk/AI/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="talk/AI/2025-03-26-16-06-36.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI应用场景与日常实际操作
-</h5>
-<div class="card-text listing-description">
-简略提示词
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-邱飞
-</div>
-<div class="listing-date">
-Mar 28, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1206316800000" data-listing-file-modified-sort="1743043010724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./talk/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-It Is Sheer Good Fortune To Miss Somebody Long Before They Leave You
-</h5>
-<div class="card-text listing-description">
-上周五晚上照例听老师神侃股市。
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
+</section>
+</section>
 
-</div>
-<div class="listing-date">
-Mar 24, 2008
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
