@@ -389,6 +389,26 @@ https://docs.cherry-ai.com/cherrystudio/preview/settings/data
 # 🔗 大模型嵌入工具链
 
 
+
+## 绘图实例：为什么要嵌入工具链？
+
+:::: {.columns}
+
+::: {.column width="50%"}
+网页端输入
+
+![](2025-03-26-17-18-24.png)
+:::
+
+::: {.column width="50%"}
+
+网页端输出
+
+![](2025-03-26-17-20-05.png)
+:::
+
+::::
+
 ## vscode
 
 集成工作环境（IDE）
@@ -408,24 +428,6 @@ https://docs.cherry-ai.com/cherrystudio/preview/settings/data
 
 ![](2025-03-27-17-00-30.png)
 
-## 绘图实例
-
-:::: {.columns}
-
-::: {.column width="50%"}
-网页端输入
-
-![](2025-03-26-17-18-24.png)
-:::
-
-::: {.column width="50%"}
-
-网页端输出
-
-![](2025-03-26-17-20-05.png)
-:::
-
-::::
 
 ## cline 任务输入
 
@@ -477,6 +479,8 @@ https://docs.cherry-ai.com/cherrystudio/preview/settings/data
 ::::
 
 ## 数据可视化方案
+
+**让AI教你用AI**
 
 :::: {.columns}
 
