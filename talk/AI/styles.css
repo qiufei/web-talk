@@ -1,7 +1,7 @@
 /* 调整标题位置 */
-.reveal .title {
+/* .reveal .title {
   margin-top: 200px !important; /* 负值使标题上移 */
-}
+} */
 
 /* 使所有图片居中显示并自动缩放 */
 .reveal .slide img {

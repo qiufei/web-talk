@@ -6,10 +6,10 @@ author: "邱飞"
 date: "2025-03-28"
 image: deepseek-small.png
 # 下面这个配置必须放在这个文件内，不能放在外部config.yml中
-title-slide-attributes:
-    data-background-image: deepseek.png
-    data-background-size: contain
-    data-background-opacity: "0.5"
+# title-slide-attributes:
+#     data-background-image: deepseek.png
+#     data-background-size: contain
+#     data-background-opacity: "0.5"
 format:
   revealjs:
     width: 1280
@@ -17,6 +17,7 @@ format:
     slide-level: 3
     slide-number: true
     show-slide-number: all
+    center: true
     fig-align: center
     #smaller: true
     theme: sky
@@ -582,12 +583,9 @@ https://www.modelscope.cn/
 *   **🌐 多模态交互:** AI 将能更好地理解和生成文本、图像、声音、视频等多种信息形式，交互更自然。
 
 
-## Q&A / 交流环节
+## 👥💬Q&A 
 
-$$ \text{感谢聆听！} $$
-
-
-
-
-
+<div style="text-align: center;">
+感谢聆听！
+</div>
 
