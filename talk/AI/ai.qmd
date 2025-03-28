@@ -28,7 +28,7 @@ format:
     css: https://assets.qiufei.site/styles.css
 ---
 
-
+## {background-image="tool.svg"} 
 
 
 ## AI使用的两种模式
@@ -352,7 +352,7 @@ https://platform.deepseek.com/api_keys
 
 ## 创建智能体
 
-![](2025-03-26-16-40-06.png)
+![](2025-03-28-11-35-23.png)
 
 
 
