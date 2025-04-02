@@ -45,10 +45,11 @@ website:
         href: mailto:hfutqiufei@163.com
       # - text: ←
 
-# html:
-#     theme:
-#      light: journal
-#      dark: cyborg
+format:
+  html:
+    theme:
+     light: journal
+     dark: cyborg
     #css: https://assets.qiufei.site/styles.css
 
 execute:
